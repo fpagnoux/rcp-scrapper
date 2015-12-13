@@ -18,10 +18,12 @@ sudo apt-get install python-twisted
 Usage
 ==========
 
-Use the scraper.py script
+Use the scraper.py script.
+
+The --noavg option excludes the RCP Average.
 
 ```sh
-python scraper.py url [output.csv]
+python scraper.py [--noavg] url [output.csv]
 ```
 
 Example :
