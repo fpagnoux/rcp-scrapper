@@ -20,7 +20,7 @@ Usage
 
 Use the scraper.py script.
 
-The --noavg option excludes the RCP Average.
+The `--noavg` option excludes the RCP Average.
 
 ```sh
 python scraper.py [--noavg] url [output.csv]

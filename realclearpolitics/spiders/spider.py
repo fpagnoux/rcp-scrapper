@@ -15,7 +15,6 @@ class spider(scrapy.Spider):
 
 
     def parse(self, response):
-        useful = response.css('#polling-data-full').pop()
         table = response.css('.data').pop()
         legend = table.css('.header')[0]
         fieldNames = legend.css('th::text, th div span::text').extract()
